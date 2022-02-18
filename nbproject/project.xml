@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>jacdac-pic</name>
+            <creation-uuid>728acc26-acff-4f06-9f1e-7419defae466</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>jacdac-c/inc</sourceRootElem>
+                <sourceRootElem>jacdac-c/drivers</sourceRootElem>
+                <sourceRootElem>jacdac-c/services</sourceRootElem>
+                <sourceRootElem>jacdac-c/source</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>16F18877</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>16F15214</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
