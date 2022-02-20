@@ -17,6 +17,7 @@
                 <sourceRootElem>jacdac-c/drivers</sourceRootElem>
                 <sourceRootElem>jacdac-c/services</sourceRootElem>
                 <sourceRootElem>jacdac-c/source</sourceRootElem>
+                <sourceRootElem>jacdac-c/jacdac</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

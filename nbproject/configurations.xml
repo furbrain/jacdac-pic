@@ -29,6 +29,101 @@
         <itemPath>jacdac-c/inc/jd_physical.h</itemPath>
         <itemPath>jacdac-c/inc/jd_service_classes.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="jacdac" displayName="jacdac" projectFiles="true">
+        <logicalFolder name="dist" displayName="dist" projectFiles="true">
+          <logicalFolder name="c" displayName="c" projectFiles="true">
+            <itemPath>jacdac-c/jacdac/dist/c/dotmatrix.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/flex.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/microphone.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/eco2.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/bitradio.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/magnetomer.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/distance.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/hidkeyboard.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/soilmoisture.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/potentiometer.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/codalmessagebus.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/gyroscope.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/bootloader.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/humidity.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/tvoc.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/proxy.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/thermocouple.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/relay.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/sensoraggregator.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/dmx.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/control.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/_system.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/lightbulb.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/button.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/buzzer.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/compass.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/lightlevel.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/switch.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/motion.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/tcp.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/waterlevel.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/matrixkeypad.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/midioutput.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/infrastructure.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/winddirection.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/settings.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/barometer.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/trafficlight.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/wifi.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/vibration.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/joystick.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/brailledisplay.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/color.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/_base.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/soundplayer.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/dimmer.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/modelrunner.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/sevensegmentdisplay.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/soundspectrum.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/ledpixel.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/power.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/solenoid.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/raingauge.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/arcadesound.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/pressurebutton.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/hidadapter.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/hidmouse.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/uniquebrain.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/multitouch.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/capacitivebutton.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/arcadegamepad.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/verifiedtelemetrysensor.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/rotaryencoder.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/heartrate.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/realtimeclock.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/windspeed.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/_sensor.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/accelerometer.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/rng.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/motor.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/reflectedlight.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/soundlevel.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/rover.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/logger.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/led.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/indexedscreen.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/uvindex.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/illuminance.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/prototest.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/azureiothubhealth.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/characterscreen.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/barcodereader.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/pulseoximeter.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/servo.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/thermometer.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/speechsynthesis.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/rolemanager.h</itemPath>
+            <itemPath>jacdac-c/jacdac/dist/c/weightscale.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>jd_user_config.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -126,6 +221,7 @@
     <Elem>jacdac-c/drivers</Elem>
     <Elem>jacdac-c/services</Elem>
     <Elem>jacdac-c/source</Elem>
+    <Elem>jacdac-c/jacdac</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

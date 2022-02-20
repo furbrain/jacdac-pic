@@ -4,6 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+      </logicalFolder>
       <logicalFolder name="interfaces" displayName="interfaces" projectFiles="true">
         <itemPath>../jacdac-c/inc/interfaces/jd_tx.h</itemPath>
         <itemPath>../jacdac-c/inc/interfaces/jd_hw.h</itemPath>
@@ -25,6 +27,21 @@
         <itemPath>mcc_generated_files/device_config.h</itemPath>
         <itemPath>mcc_generated_files/i2c1_master.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="services" displayName="services" projectFiles="true">
+        <logicalFolder name="interfaces" displayName="interfaces" projectFiles="true">
+          <itemPath>../jacdac-c/services/interfaces/jd_pwm.h</itemPath>
+          <itemPath>../jacdac-c/services/interfaces/jd_sensor_api.h</itemPath>
+          <itemPath>../jacdac-c/services/interfaces/jd_adc.h</itemPath>
+          <itemPath>../jacdac-c/services/interfaces/jd_hw_pwr.h</itemPath>
+          <itemPath>../jacdac-c/services/interfaces/jd_pixel.h</itemPath>
+          <itemPath>../jacdac-c/services/interfaces/jd_oled.h</itemPath>
+          <itemPath>../jacdac-c/services/interfaces/jd_pins.h</itemPath>
+        </logicalFolder>
+        <itemPath>../jacdac-c/services/jd_sensor.h</itemPath>
+        <itemPath>../jacdac-c/services/braille_common.h</itemPath>
+        <itemPath>../jacdac-c/services/jd_console.h</itemPath>
+        <itemPath>../jacdac-c/services/jd_services.h</itemPath>
+      </logicalFolder>
       <itemPath>../jacdac-c/inc/jd_config.h</itemPath>
       <itemPath>../jacdac-c/inc/jd_control.h</itemPath>
       <itemPath>../jacdac-c/inc/jd_drivers.h</itemPath>
@@ -42,6 +59,18 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <logicalFolder name="interfaces" displayName="interfaces" projectFiles="true">
+        <logicalFolder name="dummy" displayName="dummy" projectFiles="true">
+          <itemPath>interfaces/dummy/tx.c</itemPath>
+          <itemPath>interfaces/dummy/hw_dummy.c</itemPath>
+          <itemPath>interfaces/dummy/alloc_dummy.c</itemPath>
+          <itemPath>interfaces/dummy/rx.c</itemPath>
+        </logicalFolder>
+        <itemPath>interfaces/simple_rx.c</itemPath>
+        <itemPath>interfaces/tx_queue.c</itemPath>
+        <itemPath>interfaces/event_queue.c</itemPath>
+        <itemPath>interfaces/simple_alloc.c</itemPath>
+      </logicalFolder>
       <logicalFolder name="MCC Generated Files"
                      displayName="MCC Generated Files"
                      projectFiles="true">
@@ -66,6 +95,9 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>../jacdac-c/inc</Elem>
+    <Elem>../jacdac-c/services</Elem>
+    <Elem>../jacdac-c/drivers</Elem>
+    <Elem>interfaces</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
